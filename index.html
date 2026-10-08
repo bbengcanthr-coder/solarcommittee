@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="th">
+ <head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261008-04-ebba298","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/04bd24a6eff984f3.telemetry_sdk.js" integrity="sha512-eRq9fYej2+8V6hvjLvIA9VDqLjhyF3v1KErndwyn3RGyb/BlPbEAIvFJ9xZXdCl7+GJor4ZXTZMSkx8du4rfAg=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>บันทึกพิจารณาการแก้ไขมาตรฐานการติดตั้งทางไฟฟ้า</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Noto+Sans+Thai:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #27191a;
+      --muted: #756667;
+      --line: #eadede;
+      --paper: #fffafa;
+      --red: #a7212a;
+      --red-dark: #7f1720;
+      --red-pale: #fbeded;
+      --sage: #176348;
+      --sage-pale: #e8f4ee;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      width: 100%;
+      color: var(--ink);
+      background: #f8f3f2;
+      font-family: "Noto Sans Thai", "DM Sans", sans-serif;
+    }
+
+    button, input, textarea, select { font: inherit; }
+
+    .top-glass {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: rgba(255, 250, 250, 0.78);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(167, 33, 42, 0.12);
+    }
+
+    .brand-rule {
+      width: 38px;
+      height: 4px;
+      border-radius: 99px;
+      background: var(--red);
+    }
+
+    .quiet-shadow { box-shadow: 0 12px 36px rgba(77, 30, 33, 0.07); }
+
+    .form-field {
+      width: 100%;
+      border: 1px solid #ddcfcf;
+      border-radius: 12px;
+      background: #fff;
+      color: var(--ink);
+      padding: 0.78rem 0.9rem;
+      outline: none;
+      transition: border-color .18s ease, box-shadow .18s ease;
+    }
+
+    .form-field:focus {
+      border-color: var(--red);
+      box-shadow: 0 0 0 3px rgba(167, 33, 42, 0.12);
+    }
+
+    textarea.form-field { min-height: 104px; resize: vertical; }
+
+    .status-pending {
+      color: #9a5a00;
+      background: #fff4d8;
+      border-color: #f1d18b;
+    }
+
+    .status-accepted {
+      color: #0f6545;
+      background: var(--sage-pale);
+      border-color: #add5c3;
+    }
+
+    .filter-button {
+      border: 1px solid #dfd0d0;
+      color: #675556;
+      background: #fff;
+      transition: .18s ease;
+    }
+
+    .filter-button:hover { border-color: #b9787d; color: var(--red); }
+
+    .filter-button.is-active {
+      background: var(--red);
+      color: white;
+      border-color: var(--red);
+    }
+
+    .record-card {
+      border: 1px solid #eadede;
+      background: #fff;
+      border-radius: 18px;
+      overflow: hidden;
+      animation: rise .35s ease both;
+    }
+
+    .record-card:hover { border-color: #d7b8ba; }
+
+    .record-card details summary { list-style: none; cursor: pointer; }
+    .record-card details summary::-webkit-details-marker { display: none; }
+
+    .record-card details[open] .expand-icon { transform: rotate(180deg); }
+    .expand-icon { transition: transform .2s ease; }
+
+    .toast {
+      position: fixed;
+      z-index: 50;
+      right: 1rem;
+      bottom: 1rem;
+      max-width: min(360px, calc(100% - 2rem));
+      padding: .85rem 1rem;
+      border-radius: 12px;
+      color: #fff;
+      background: #342324;
+      box-shadow: 0 14px 40px rgba(38, 18, 19, .25);
+      transform: translateY(130%);
+      opacity: 0;
+      transition: .25s ease;
+    }
+
+    .toast.show { transform: translateY(0); opacity: 1; }
+    .toast.success { background: #176348; }
+    .toast.error { background: #9f2028; }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .loading-line {
+      height: 3px;
+      border-radius: 99px;
+      overflow: hidden;
+      background: #f1dfdf;
+    }
+
+    .loading-line::after {
+      content: "";
+      display: block;
+      width: 42%;
+      height: 100%;
+      background: var(--red);
+      animation: loading 1.1s infinite ease-in-out;
+    }
+
+    @keyframes loading {
+      from { transform: translateX(-110%); }
+      to { transform: translateX(270%); }
+    }
+
+    :focus-visible {
+      outline: 3px solid rgba(167, 33, 42, .42);
+      outline-offset: 3px;
+    }
+
+    @media (max-width: 640px) {
+      .top-title { font-size: 1rem; }
+      .top-subtitle { font-size: .72rem; }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/139292be1a121117.data_sdk.js" type="text/javascript" integrity="sha512-ku85No3oe/bduZl2GzkisUeVgDTsGMJRpyzje5KOd8CI1OTETHTbWnK9N10t5msUdkDwqH7Fh27IHSERz6DTeQ=="></script>
+  <script src="/_sdk/05ccb5a43e5da88c.editing_sdk.js" type="text/javascript" integrity="sha512-FG1JRTGLHBjGwSq9y04ZmvkRvH245Ed36cKu7nnxxflQ7rhXj0x+4IVTVXVcLTY+FAKRl9u95V461lUElEGzSA=="></script>
+  <script src="/_sdk/57b0d490ad965030.resizing_sdk.js" type="text/javascript" integrity="sha512-0E/Vciw6DeZsntFSvbQDPDCkFqYpKUFCf9koNzM+aGgKAlLTlttxAypYigNt+2G8S1SiWtvdbzbwtRDC3UigRg=="></script>
+ </head>
+ <body data-template-id="__page-root">
+  <header class="top-glass">
+   <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
+    <div class="flex items-start gap-3">
+     <div class="brand-rule mt-2 shrink-0"></div>
+     <div class="min-w-0">
+      <h1 data-template-id="page-title" class="canva-text top-title font-bold leading-snug"></h1>
+      <p data-template-id="page-subtitle" class="canva-text top-subtitle mt-1 text-sm"></p>
+     </div>
+    </div>
+   </div>
+  </header>
+  <main class="w-full max-w-6xl mx-auto px-4 sm:px-6 pt-7 pb-14">
+   <section aria-label="ภาพรวมรายการ" class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+    <article data-template-id="summary-total-panel" class="canva-panel rounded-2xl p-5 quiet-shadow">
+     <div class="flex items-center justify-between">
+      <p data-template-id="summary-total-label" class="canva-text text-sm font-medium"></p><i data-lucide="files" class="w-5 h-5 text-[#a7212a]" aria-hidden="true"></i>
+     </div>
+     <p id="total-count" class="mt-3 text-3xl font-bold">—</p>
+    </article>
+    <article data-template-id="summary-pending-panel" class="canva-panel rounded-2xl p-5 quiet-shadow">
+     <div class="flex items-center justify-between">
+      <p data-template-id="summary-pending-label" class="canva-text text-sm font-medium"></p><i data-lucide="clock-3" class="w-5 h-5 text-[#a7212a]" aria-hidden="true"></i>
+     </div>
+     <p id="pending-count" class="mt-3 text-3xl font-bold">—</p>
+    </article>
+    <article data-template-id="summary-accepted-panel" class="canva-panel rounded-2xl p-5 quiet-shadow">
+     <div class="flex items-center justify-between">
+      <p data-template-id="summary-accepted-label" class="canva-text text-sm font-medium"></p><i data-lucide="circle-check" class="w-5 h-5 text-[#176348]" aria-hidden="true"></i>
+     </div>
+     <p id="accepted-count" class="mt-3 text-3xl font-bold">—</p>
+    </article>
+   </section>
+   <section data-template-id="entry-panel" class="canva-panel mt-7 rounded-2xl p-5 sm:p-7 quiet-shadow">
+    <div class="flex items-start gap-3">
+     <div class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#fbeded] text-[#a7212a]"><i data-lucide="file-pen-line" class="w-4 h-4" aria-hidden="true"></i>
+     </div>
+     <div>
+      <h2 data-template-id="form-title" class="canva-text font-bold"></h2>
+      <p data-template-id="form-description" class="canva-text mt-1 text-sm leading-relaxed"></p>
+     </div>
+    </div>
+    <form id="entry-form" class="mt-6" novalidate>
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div><label data-template-id="section-label" class="canva-text mb-2 block text-sm font-semibold" for="section-name"></label> <input id="section-name" class="form-field" type="text" required>
+      </div>
+      <div><label data-template-id="member-label" class="canva-text mb-2 block text-sm font-semibold" for="committee-member"></label> <input id="committee-member" class="form-field" type="text" required>
+      </div>
+      <div><label data-template-id="date-label" class="canva-text mb-2 block text-sm font-semibold" for="submitted-date"></label> <input id="submitted-date" class="form-field" type="date" required>
+      </div>
+      <div><label data-template-id="new-status-label" class="canva-text mb-2 block text-sm font-semibold" for="new-status"></label> <select id="new-status" class="form-field" required> <option value="รอพิจารณา">รอพิจารณา</option> <option value="รับพิจารณาแล้ว">รับพิจารณาแล้ว</option> </select>
+      </div>
+     </div>
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+      <div><label data-template-id="original-label" class="canva-text mb-2 block text-sm font-semibold" for="original-content"></label> <textarea id="original-content" class="form-field" required></textarea>
+      </div>
+      <div><label data-template-id="proposed-label" class="canva-text mb-2 block text-sm font-semibold" for="proposed-change"></label> <textarea id="proposed-change" class="form-field" required></textarea>
+      </div>
+     </div>
+     <div class="mt-4"><label data-template-id="reason-label" class="canva-text mb-2 block text-sm font-semibold" for="reason"></label> <textarea id="reason" class="form-field" required></textarea>
+     </div>
+     <div class="mt-4"><label data-template-id="image-description-label" class="canva-text mb-2 block text-sm font-semibold" for="image-description"></label> <textarea id="image-description" class="form-field min-h-[76px]" required></textarea>
+      <p data-template-id="image-description-help" class="canva-text mt-2 text-xs leading-relaxed"></p>
+     </div>
+     <div class="mt-6 flex flex-wrap items-center gap-3"><button data-template-id="save-button" class="canva-button inline-flex items-center gap-2 rounded-xl px-5 py-3 font-semibold transition hover:bg-[#7f1720] disabled:cursor-not-allowed disabled:opacity-60" type="submit"> <i data-lucide="plus" class="w-4 h-4" aria-hidden="true"></i> </button>
+      <p id="form-message" class="text-sm" role="status" aria-live="polite"></p>
+     </div>
+    </form>
+   </section>
+   <section class="mt-9" aria-labelledby="records-heading">
+    <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+     <div>
+      <p data-template-id="records-eyebrow" class="canva-text text-xs font-bold tracking-[0.14em] uppercase"></p>
+      <h2 id="records-heading" data-template-id="records-title" class="canva-text mt-1 font-bold"></h2>
+     </div>
+     <div class="flex flex-wrap gap-2" aria-label="กรองตามสถานะ"><button data-template-id="filter-all" class="canva-button filter-button is-active rounded-full px-4 py-2 text-sm font-medium" type="button" data-filter="all"></button> <button data-template-id="filter-pending" class="canva-button filter-button rounded-full px-4 py-2 text-sm font-medium" type="button" data-filter="รอพิจารณา"></button> <button data-template-id="filter-accepted" class="canva-button filter-button rounded-full px-4 py-2 text-sm font-medium" type="button" data-filter="รับพิจารณาแล้ว"></button>
+     </div>
+    </div>
+    <div id="load-state" class="mt-5 rounded-2xl border border-[#eadede] bg-white p-5">
+     <p data-template-id="loading-label" class="canva-text text-sm"></p>
+     <div class="loading-line mt-4"></div>
+    </div>
+    <div id="load-error" class="hidden mt-5 rounded-2xl border border-[#e7bbbb] bg-[#fff6f6] p-5">
+     <p data-template-id="load-error-label" class="canva-text font-semibold"></p><button data-template-id="retry-button" id="retry-button" class="canva-button mt-3 rounded-lg px-4 py-2 text-sm font-semibold" type="button"></button>
+    </div>
+    <div id="record-list" class="mt-5 space-y-4"></div>
+    <div id="empty-state" class="hidden mt-5 rounded-2xl border border-dashed border-[#d8c7c7] bg-[#fffafa] px-6 py-12 text-center"><i data-lucide="inbox" class="mx-auto h-7 w-7 text-[#a7212a]" aria-hidden="true"></i>
+     <p data-template-id="empty-title" class="canva-text mt-3 font-semibold"></p>
+     <p data-template-id="empty-description" class="canva-text mt-1 text-sm"></p>
+    </div>
+    <p id="limit-message" class="hidden mt-4 rounded-xl border border-[#efcf8e] bg-[#fff8e7] px-4 py-3 text-sm text-[#8a5700]" role="status"></p>
+   </section>
+  </main>
+  <footer class="w-full border-t border-[#eadede] bg-[#fffafa]">
+   <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 py-5">
+    <p data-template-id="footer-note" class="canva-text text-xs"></p>
+   </div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <template id="record-template">
+   <article class="record-card">
+    <div class="p-5 sm:p-6">
+     <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+      <div class="min-w-0">
+       <p class="record-section text-lg font-bold leading-snug"></p>
+       <div class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-[#756667]"><span class="inline-flex items-center gap-1.5"> <i data-lucide="user-round" class="w-3.5 h-3.5" aria-hidden="true"></i> <span class="record-member"></span> </span> <span class="inline-flex items-center gap-1.5"> <i data-lucide="calendar-days" class="w-3.5 h-3.5" aria-hidden="true"></i> <span class="record-date"></span> </span>
+       </div>
+      </div><span class="record-status inline-flex w-fit items-center rounded-full border px-3 py-1 text-xs font-bold"></span>
+     </div>
+     <details class="mt-5 border-t border-[#eee3e3] pt-4"><summary class="flex items-center justify-between gap-3 text-sm font-semibold text-[#a7212a]"> <span class="inline-flex items-center gap-2"> <i data-lucide="align-left" class="w-4 h-4" aria-hidden="true"></i> รายละเอียดข้อเสนอ </span> <i data-lucide="chevron-down" class="expand-icon w-4 h-4" aria-hidden="true"></i> </summary>
+      <div class="mt-5 grid grid-cols-1 gap-4 lg:grid-cols-2">
+       <div class="rounded-xl bg-[#fff7f7] p-4">
+        <p class="text-xs font-bold tracking-wide text-[#98676a]">เนื้อหาเดิม</p>
+        <p class="record-original mt-2 whitespace-pre-wrap text-sm leading-6"></p>
+       </div>
+       <div class="rounded-xl bg-[#fff7f7] p-4">
+        <p class="text-xs font-bold tracking-wide text-[#98676a]">เนื้อหาที่เสนอให้แก้ไข</p>
+        <p class="record-proposed mt-2 whitespace-pre-wrap text-sm leading-6"></p>
+       </div>
+       <div class="rounded-xl border border-[#eee3e3] p-4 lg:col-span-2">
+        <p class="text-xs font-bold tracking-wide text-[#98676a]">เหตุผลประกอบ</p>
+        <p class="record-reason mt-2 whitespace-pre-wrap text-sm leading-6"></p>
+       </div>
+       <div class="rounded-xl border border-[#eee3e3] p-4 lg:col-span-2">
+        <p class="inline-flex items-center gap-2 text-xs font-bold tracking-wide text-[#98676a]"><i data-lucide="image" class="w-4 h-4" aria-hidden="true"></i> คำอธิบายภาพหรือเอกสารประกอบ</p>
+        <p class="record-image-description mt-2 whitespace-pre-wrap text-sm leading-6"></p>
+       </div>
+      </div>
+     </details>
+     <div class="mt-5 flex flex-col gap-3 border-t border-[#eee3e3] pt-4 sm:flex-row sm:items-center sm:justify-between">
+      <div class="flex items-center gap-2"><label class="text-sm font-medium text-[#675556]" for="">สถานะ</label> <select class="record-status-select form-field w-auto !rounded-lg !py-2 !text-sm"></select>
+      </div><button class="delete-button inline-flex w-fit items-center gap-2 rounded-lg border border-[#dfc6c7] px-3 py-2 text-sm font-semibold text-[#9f2028] transition hover:border-[#9f2028] hover:bg-[#fff5f5]" type="button"> <i data-lucide="trash-2" class="w-4 h-4" aria-hidden="true"></i> <span class="delete-label">ลบรายการ</span> </button>
+     </div>
+    </div>
+   </article>
+  </template>
+  <script>
+    let backendRecords = [];
+    let activeFilter = "all";
+    let initialLoadTimer;
+    let hasInitialData = false;
+    const pendingEdits = new Map();
+    let writeChain = Promise.resolve();
+    let lastWriteAt = 0;
+
+    const list = document.getElementById("record-list");
+    const loadState = document.getElementById("load-state");
+    const loadError = document.getElementById("load-error");
+    const emptyState = document.getElementById("empty-state");
+    const limitMessage = document.getElementById("limit-message");
+    const toast = document.getElementById("toast");
+
+    function showToast(message, type) {
+      toast.textContent = message;
+      toast.className = "toast show " + (type || "");
+      clearTimeout(showToast.timer);
+      showToast.timer = setTimeout(() => { toast.className = "toast"; }, 3600);
+    }
+
+    function formatDate(isoDate) {
+      if (!isoDate) return "ไม่ระบุวันที่";
+      const date = new Date(isoDate + "T00:00:00");
+      if (Number.isNaN(date.getTime())) return isoDate;
+      return new Intl.DateTimeFormat("th-TH", {
+        day: "numeric", month: "short", year: "numeric"
+      }).format(date);
+    }
+
+    function isAccepted(status) {
+      return status === "รับพิจารณาแล้ว";
+    }
+
+    function updateSummary() {
+      document.getElementById("total-count").textContent = backendRecords.length;
+      document.getElementById("pending-count").textContent =
+        backendRecords.filter(record => !isAccepted(record.status)).length;
+      document.getElementById("accepted-count").textContent =
+        backendRecords.filter(record => isAccepted(record.status)).length;
+
+      if (backendRecords.length >= 900) {
+        limitMessage.textContent = "จำนวนรายการปัจจุบัน " + backendRecords.length + " จากสูงสุด 999 รายการ";
+        limitMessage.classList.remove("hidden");
+      } else {
+        limitMessage.classList.add("hidden");
+      }
+    }
+
+    function filteredRecords() {
+      return backendRecords
+        .filter(record => activeFilter === "all" || record.status === activeFilter)
+        .slice()
+        .sort((a, b) => String(b.submitted_date).localeCompare(String(a.submitted_date)));
+    }
+
+    function recordById(id) {
+      return backendRecords.find(record => record.__backendId === id);
+    }
+
+    function createRecordElement(record) {
+      const fragment = document.getElementById("record-template").content.cloneNode(true);
+      const article = fragment.querySelector("article");
+      article.dataset.recordId = record.__backendId;
+
+      article.querySelector(".record-section").textContent = record.section_name || "ไม่ระบุหัวข้อ";
+      article.querySelector(".record-member").textContent = record.committee_member || "ไม่ระบุชื่อ";
+      article.querySelector(".record-date").textContent = formatDate(record.submitted_date);
+      article.querySelector(".record-original").textContent = record.original_content || "—";
+      article.querySelector(".record-proposed").textContent = record.proposed_change || "—";
+      article.querySelector(".record-reason").textContent = record.reason || "—";
+      article.querySelector(".record-image-description").textContent = record.image_description || "—";
+
+      const badge = article.querySelector(".record-status");
+      badge.textContent = record.status || "รอพิจารณา";
+      badge.classList.add(isAccepted(record.status) ? "status-accepted" : "status-pending");
+
+      const select = article.querySelector(".record-status-select");
+      select.id = "status-" + record.__backendId;
+      select.innerHTML = '<option value="รอพิจารณา">รอพิจารณา</option><option value="รับพิจารณาแล้ว">รับพิจารณาแล้ว</option>';
+      select.value = record.status || "รอพิจารณา";
+      select.addEventListener("change", () => queueStatusUpdate(record.__backendId, select.value));
+
+      const deleteButton = article.querySelector(".delete-button");
+      deleteButton.addEventListener("click", () => handleDelete(deleteButton, article));
+
+      return article;
+    }
+
+    function render() {
+      const records = filteredRecords();
+      const existing = new Map(
+        [...list.children].map(element => [element.dataset.recordId, element])
+      );
+
+      records.forEach(record => {
+        let element = existing.get(record.__backendId);
+        if (!element) {
+          element = createRecordElement(record);
+          list.appendChild(element);
+        } else {
+          const pending = pendingEdits.get(record.__backendId);
+          const displayedStatus = pending ? pending.status : record.status;
+          element.querySelector(".record-section").textContent = record.section_name || "ไม่ระบุหัวข้อ";
+          element.querySelector(".record-member").textContent = record.committee_member || "ไม่ระบุชื่อ";
+          element.querySelector(".record-date").textContent = formatDate(record.submitted_date);
+          element.querySelector(".record-original").textContent = record.original_content || "—";
+          element.querySelector(".record-proposed").textContent = record.proposed_change || "—";
+          element.querySelector(".record-reason").textContent = record.reason || "—";
+          element.querySelector(".record-image-description").textContent = record.image_description || "—";
+          const badge = element.querySelector(".record-status");
+          badge.textContent = displayedStatus || "รอพิจารณา";
+          badge.classList.toggle("status-accepted", isAccepted(displayedStatus));
+          badge.classList.toggle("status-pending", !isAccepted(displayedStatus));
+          element.querySelector(".record-status-select").value = displayedStatus || "รอพิจารณา";
+        }
+        existing.delete(record.__backendId);
+      });
+
+      existing.forEach(element => element.remove());
+      emptyState.classList.toggle("hidden", !hasInitialData || records.length !== 0);
+      updateSummary();
+      lucide.createIcons();
+    }
+
+    function renderLoadError(message) {
+      loadState.classList.add("hidden");
+      loadError.classList.remove("hidden");
+      loadError.querySelector("[data-template-id='load-error-label']").textContent = message;
+    }
+
+    const handler = {
+      onDataChanged(data) {
+        clearTimeout(initialLoadTimer);
+        hasInitialData = true;
+        backendRecords = Array.isArray(data) ? data : [];
+        loadState.classList.add("hidden");
+        loadError.classList.add("hidden");
+        render();
+      }
+    };
+
+    async function initializeDataSdk() {
+      clearTimeout(initialLoadTimer);
+      loadError.classList.add("hidden");
+      loadState.classList.remove("hidden");
+      initialLoadTimer = setTimeout(() => {
+        renderLoadError("ไม่สามารถโหลดข้อมูลที่บันทึกไว้ได้ กรุณาลองเชื่อมต่อใหม่อีกครั้ง");
+      }, 8000);
+
+      try {
+        const initResult = await window.dataSdk.init(handler);
+        if (!initResult.isOk) {
+          clearTimeout(initialLoadTimer);
+          renderLoadError("ไม่สามารถเชื่อมต่อข้อมูลที่บันทึกไว้ได้ กรุณาลองใหม่อีกครั้ง");
+        }
+      } catch (error) {
+        clearTimeout(initialLoadTimer);
+        renderLoadError("ไม่สามารถเริ่มการเชื่อมต่อข้อมูลได้ กรุณาลองใหม่อีกครั้ง");
+      }
+    }
+
+    function setSubmitState(button, pending) {
+      button.disabled = pending;
+      const icon = button.querySelector("svg");
+      if (icon) icon.style.display = pending ? "none" : "";
+      button.dataset.originalText = button.dataset.originalText || button.textContent.trim();
+      button.lastChild.textContent = pending ? "กำลังบันทึก..." : button.dataset.originalText;
+    }
+
+    document.getElementById("entry-form").addEventListener("submit", async event => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      const submitButton = form.querySelector("button[type='submit']");
+      const message = document.getElementById("form-message");
+
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      if (backendRecords.length >= 999) {
+        limitMessage.textContent = "ไม่สามารถเพิ่มรายการได้ เนื่องจากครบจำนวนสูงสุด 999 รายการแล้ว";
+        limitMessage.classList.remove("hidden");
+        return;
+      }
+
+      const record = {
+        section_name: document.getElementById("section-name").value.trim(),
+        original_content: document.getElementById("original-content").value.trim(),
+        proposed_change: document.getElementById("proposed-change").value.trim(),
+        reason: document.getElementById("reason").value.trim(),
+        committee_member: document.getElementById("committee-member").value.trim(),
+        submitted_date: document.getElementById("submitted-date").value,
+        image_description: document.getElementById("image-description").value.trim(),
+        status: document.getElementById("new-status").value
+      };
+
+      setSubmitState(submitButton, true);
+      message.textContent = "";
+      try {
+        const result = await window.dataSdk.create(record);
+        if (!result.isOk) {
+          message.textContent = "ไม่สามารถยืนยันการบันทึกได้ กรุณารีเฟรชก่อนลองอีกครั้ง";
+          message.className = "text-sm text-[#9f2028]";
+        } else {
+          form.reset();
+          document.getElementById("submitted-date").value = new Date().toISOString().slice(0, 10);
+          message.textContent = "บันทึกข้อเสนอเรียบร้อยแล้ว";
+          message.className = "text-sm text-[#176348]";
+          showToast("บันทึกข้อเสนอเรียบร้อยแล้ว", "success");
+        }
+      } catch (error) {
+        message.textContent = "เกิดข้อผิดพลาดระหว่างการบันทึก กรุณาลองอีกครั้ง";
+        message.className = "text-sm text-[#9f2028]";
+      } finally {
+        setSubmitState(submitButton, false);
+      }
+    });
+
+    function queueStatusUpdate(recordId, status) {
+      const current = recordById(recordId);
+      if (!current) {
+        showToast("ไม่พบรายการที่ต้องการแก้ไข", "error");
+        return;
+      }
+
+      const previous = pendingEdits.get(recordId) || {};
+      pendingEdits.set(recordId, { ...previous, status });
+      render();
+
+      writeChain = writeChain.then(async () => {
+        const pending = pendingEdits.get(recordId);
+        const sourceRecord = recordById(recordId);
+        if (!pending || !sourceRecord) return;
+
+        const fieldsToSend = { ...pending };
+        const now = Date.now();
+        const wait = Math.max(0, 500 - (now - lastWriteAt));
+        if (wait) await new Promise(resolve => setTimeout(resolve, wait));
+
+        const latest = pendingEdits.get(recordId);
+        if (!latest || latest.status !== fieldsToSend.status) return;
+
+        lastWriteAt = Date.now();
+        try {
+          const result = await window.dataSdk.update({ ...sourceRecord, ...fieldsToSend });
+          if (!result.isOk) {
+            pendingEdits.delete(recordId);
+            render();
+            showToast("ไม่สามารถยืนยันการเปลี่ยนสถานะได้ กรุณารีเฟรชก่อนลองใหม่", "error");
+            return;
+          }
+
+          const after = pendingEdits.get(recordId);
+          if (after && after.status === fieldsToSend.status) {
+            pendingEdits.delete(recordId);
+          }
+          showToast("อัปเดตสถานะแล้ว", "success");
+        } catch (error) {
+          pendingEdits.delete(recordId);
+          render();
+          showToast("ไม่สามารถอัปเดตสถานะได้ กรุณาลองใหม่", "error");
+        }
+      });
+    }
+
+    async function handleDelete(button, row) {
+      const record = recordById(row.dataset.recordId);
+      if (!record) {
+        showToast("ไม่พบรายการที่ต้องการลบ", "error");
+        return;
+      }
+
+      const label = button.querySelector(".delete-label");
+      if (button.dataset.confirming !== "true") {
+        button.dataset.confirming = "true";
+        label.textContent = "ยืนยันการลบ";
+        button.classList.add("bg-[#fff1f1]", "border-[#9f2028]");
+        setTimeout(() => {
+          if (button.dataset.confirming === "true") {
+            button.dataset.confirming = "false";
+            label.textContent = "ลบรายการ";
+            button.classList.remove("bg-[#fff1f1]", "border-[#9f2028]");
+          }
+        }, 5000);
+        return;
+      }
+
+      button.disabled = true;
+      label.textContent = "กำลังลบ...";
+      try {
+        const result = await window.dataSdk.delete(record);
+        if (!result.isOk) {
+          showToast("ไม่สามารถยืนยันการลบได้ กรุณารีเฟรชก่อนลองใหม่", "error");
+        } else {
+          row.remove();
+          showToast("ลบรายการแล้ว", "success");
+        }
+      } catch (error) {
+        showToast("ไม่สามารถลบรายการได้ กรุณาลองใหม่", "error");
+      } finally {
+        button.disabled = false;
+        button.dataset.confirming = "false";
+        label.textContent = "ลบรายการ";
+        button.classList.remove("bg-[#fff1f1]", "border-[#9f2028]");
+      }
+    }
+
+    document.querySelectorAll("[data-filter]").forEach(button => {
+      button.addEventListener("click", () => {
+        activeFilter = button.dataset.filter;
+        document.querySelectorAll("[data-filter]").forEach(item => {
+          item.classList.toggle("is-active", item === button);
+        });
+        render();
+      });
+    });
+
+    document.getElementById("retry-button").addEventListener("click", initializeDataSdk);
+
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("submitted-date").value = new Date().toISOString().slice(0, 10);
+      lucide.createIcons();
+      initializeDataSdk();
+    });
+  </script>
+ </body>
+</html>
